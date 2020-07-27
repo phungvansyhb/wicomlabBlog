@@ -1,0 +1,25 @@
+{
+  "name": "apidemo",
+  "version": "1.0.0",
+  "description": "***  this project devided into 2 part:  + Client uses reactjs , react stack : redux , redux - oservable - antdesign  + Backend use expressJs  + DB is mysql",
+  "main": "index.js",
+  "scripts": {
+    "client": "cd client/reactjs && npm start",
+    "server": "cd server && nodemon server.js",
+    "start": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phungvansyhb/wicomlabBlog.git"
+  },
+  "keywords": [],
+  "author": "Phung Sy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/phungvansyhb/wicomlabBlog/issues"
+  },
+  "homepage": "https://github.com/phungvansyhb/wicomlabBlog#readme",
+  "engines": {
+    "node":"14.x"
+  }
+}
